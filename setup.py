@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 DESCRIPTION = 'Waveform files (.wv) utility'
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -19,6 +19,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=['numpy'],
+    url='https://github.com/SebastienDeriaz/SDPA-WV-FILES',
     keywords=['python', 'wv', 'file', 'R&S', 'Rhode & Schwarz', 'SMCV100B'],
     classifiers=[
         "Development Status :: 3 - Alpha",
