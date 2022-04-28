@@ -1,22 +1,14 @@
-# SDPA-OFDM
+# SDPA-WV-FILES
 
-OFDM Modulation
+Utility for reading and writing .wv files for use with SMCV100B Vector Signal Generator
 
 
 ## Installation
 
-    pip install SDPA-OFDM
+    pip install SDPA-WV-FILES
 
 ## Usage
 
-```python
-from SDPA_OFDM import ofdm_modulator
+## Current version : 0.1.0
 
-mod = ofdm_modulator(args)
-
-I, Q = mod.messageToIQ(message)
-```
-
-## Current version : 1.0.0
-
-The package has been tested with SDPA-MR-OFDM and provides correct values when compared with 802.15.4g specification
+First published version

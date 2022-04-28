@@ -1,6 +1,0 @@
-# Compile
-python setup.py sdist bdist_wheel
-# Send to PyPi
-twine upload dist/*
-# Install locally
-python setup.py install
